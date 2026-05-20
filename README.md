@@ -120,7 +120,9 @@ cp config/CommandHelper/main.ms run/plugins/CommandHelper/main.ms
 gradle runServer
 ```
 (Argus should now show up as available in the list of servers)
+
 5. Join the server!
+6. Once the game is done you can view the results in: `run/plugins/Argus/game_data.yml`
 
 ## Using Argus
 - The games will by default run for 1.5 minutes. You can see what agent is doing in the chat log and inside your terminal.
@@ -133,6 +135,8 @@ gradle runServer
 ```
 ./run_experiment.sh
 ```
+**NOTE:** The aggregate results of experiments will be located at: `run/plugins/Argus/game_data.yml`
+
 **NOTE:** For existing experiment results and data please navigate to the [data_analysis](data_analysis) folder
 
 ## Notes
